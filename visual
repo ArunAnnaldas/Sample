@@ -1,0 +1,30 @@
+VISUAL TARGET:
+Use screen-01-mode.png as the visual target for:
+- page structure
+- spacing
+- typography hierarchy
+- sidebar
+- cards
+- borders
+- shadows
+- stepper
+- button placement
+- selected/unselected states
+- processing options
+- overall enterprise look and feel
+
+The reference image is a DESIGN reference, not a replacement for the existing functional requirements.
+
+If there is a conflict:
+1. Existing functionality takes priority.
+2. UI_REDESIGN.md defines the requirements.
+3. screen-01-mode.png defines the visual presentation.
+
+Do not implement the other screens yet.
+
+After implementation:
+1. Run TypeScript/type-check.
+2. Run the frontend build.
+3. Fix any compilation errors.
+4. Tell me exactly which files you modified.
+5. Briefly explain any differences between the reference image and implementation and why.
