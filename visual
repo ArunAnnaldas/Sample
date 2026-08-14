@@ -1,30 +1,20 @@
-VISUAL TARGET:
-Use screen-01-mode.png as the visual target for:
-- page structure
-- spacing
-- typography hierarchy
+Treat the design system established in Screen0Mode.tsx as the baseline
+for all subsequent screens.
+
+Now implement Screen 2 using:
+./design-reference/screen-02-source-target.png
+
+Preserve the same:
 - sidebar
-- cards
-- borders
-- shadows
+- header
 - stepper
-- button placement
-- selected/unselected states
-- processing options
-- overall enterprise look and feel
+- typography
+- spacing
+- card styling
+- buttons
+- colors
+- borders
+- responsive behavior
 
-The reference image is a DESIGN reference, not a replacement for the existing functional requirements.
-
-If there is a conflict:
-1. Existing functionality takes priority.
-2. UI_REDESIGN.md defines the requirements.
-3. screen-01-mode.png defines the visual presentation.
-
-Do not implement the other screens yet.
-
-After implementation:
-1. Run TypeScript/type-check.
-2. Run the frontend build.
-3. Fix any compilation errors.
-4. Tell me exactly which files you modified.
-5. Briefly explain any differences between the reference image and implementation and why.
+Do not redesign the global shell independently.
+Implement only the Screen 2 content area.
